@@ -1,18 +1,21 @@
-# Getting Started with Create React App
+# How to run the application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone the project 
+Run npm i
+Run npm run start
 
-## Available Scripts
+## Technologies used
 
-In the project directory, you can run:
+React (using cra)
+Javascript
 
-### `npm start`
+## Solving approach
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+starting position will the start tile selelectes
+then move in one direction of the child till the end (directions are defined as bottom, right, top, left)
+looping through all the directions and using recurrsion to call the function inside iteself with the updated props
+base case to check if the start and end point matches it will return the path else it will keep on looping
+conditional check to check it does not go beyond 20 (as our matrix is 20 x 20 ) and not below 0 as we move in negative direction
 
 ### `npm test`
 
