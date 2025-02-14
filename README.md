@@ -18,3 +18,7 @@
 - conditional check to check it does not go beyond 20 (as our matrix is 20 x 20 ) and not below 0 as we move in negative direction
 
 
+## Application Screenshots
+
+![Alt text](./src/assets/ss1.png?raw=true "Optional Title")
+![Alt text](./src/assets/ss2.png?raw=true "Optional Title")
